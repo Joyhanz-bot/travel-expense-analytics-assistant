@@ -6,9 +6,9 @@
 
 [🌐 在线 Demo（待补充）](#在线-demo) · [💻 GitHub Repository](https://github.com/Joyhanz-bot/travel-expense-analytics-assistant)
 
-> **截图占位**：当前仓库尚未包含正式页面截图，未生成假截图。请将主页面截图放入 `screenshots/overview.png`。
->
-> <img src="screenshots/overview.png" width="900" alt="差旅数据整合工具主页面截图（待补充）">
+![差旅数据整合概览](screenshots/overview.png)
+
+概览展示多源差旅文件识别、标准化处理、Mapping、分类和质量检查的完整 pipeline。
 
 ## 1. 项目简介
 
@@ -88,13 +88,13 @@ Python 负责申请单 / 订单关联、申请单号提取、城市和境内外�
 
 ## 7. Demo 截图
 
-请将正式截图放入 `screenshots/` 后替换以下占位文件：
+![标准化差旅月报宽表](screenshots/master_table.png)
 
-| 截图 | 说明 |
-| --- | --- |
-| `screenshots/overview.png` | 数据源选择与处理结果总览，帮助财务人员理解输入和处理状态。 |
-| `screenshots/master_table.png` | 标准化差旅月报宽表，展示统一后的核心字段。 |
-| `screenshots/quality_review.png` | 数据质量检查和待人工确认区域，集中展示需要处理的问题。 |
+标准化宽表是项目的核心输出：不同平台的记录最终进入同一套字段，可用于月度差旅费用分析和部门拆分。
+
+![数据质量检查](screenshots/quality_review.png)
+
+质量检查区域会暴露 Mapping 未匹配、关键字段缺失和无法可靠分类的记录，不会为了追求完整率而静默删除或强行判断。
 
 ## 在线 Demo
 
