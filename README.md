@@ -4,7 +4,7 @@
 
 将携程、滴滴、Payment、OA 等结构不同的差旅数据统一标准化、Mapping、分类并合并为可用于月报分析的标准宽表。
 
-[🌐 在线 Demo（待补充）](#在线-demo) · [💻 GitHub Repository](https://github.com/Joyhanz-bot/travel-expense-analytics-assistant)
+[🌐 在线体验 Demo](https://travel-expense-analytics-assistant.streamlit.app/) · [💻 GitHub Repository](https://github.com/Joyhanz-bot/travel-expense-analytics-assistant)
 
 ![差旅数据整合概览](screenshots/overview.png)
 
@@ -98,7 +98,7 @@ Python 负责申请单 / 订单关联、申请单号提取、城市和境内外�
 
 ## 在线 Demo
 
-> 当前未在仓库部署记录或 README 中发现可验证的 Streamlit 公网地址。请部署后将链接补充到顶部“在线 Demo”入口。
+> [在线体验 Demo](https://travel-expense-analytics-assistant.streamlit.app/)：打开差旅数据整合与分类工具的 Streamlit 在线页面。
 
 ## 8. 项目结构
 
